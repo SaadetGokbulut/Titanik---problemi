@@ -2,7 +2,6 @@ Titanic Hayatta Kalma Tahmini Projesi
 
 Bu proje, Titanic felaketindeki yolcuların hayatta kalma durumlarını analiz eden ve tahmin eden bir makine öğrenimi çalışmasını içermektedir.
 
-Proje Özeti
 
 Genel Hayatta Kalma Oranı: Model, 418 yolcudan 152'sinin hayatta kalacağını (%36.4) ve 266'sının hayatta kalamayacağını (%63.6) tahmin etmektedir.
 Bu sonuç, eğitim verisindeki %38.4 hayatta kalma oranına oldukça yakındır.
@@ -46,9 +45,9 @@ Age-SibSp: -0.3 (Yaşlı bireyler daha az kardeş/eş ile seyahat etmiştir)
 Modelleme için kullanılan algoritma hem sayısal hem de kategorik değişkenleri işleyebilen CatBoost algoritması kullanılmıştır.Model 1000 iterasyon ile eğitilmiştir
 
 Kategorik Özellikler
-Pclass (bilet sınıfı)
-Sex (cinsiyet)
-Embarked (biniş limanı)
+1)Pclass (bilet sınıfı)
+2)Sex (cinsiyet)
+3)Embarked (biniş limanı)
 
 Yeni Özellikler
 cabin0: Kabin bilgisi olup olmaması
